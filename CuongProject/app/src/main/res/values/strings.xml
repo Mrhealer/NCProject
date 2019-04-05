@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CuongProject</string>
+    <string name="name">Ngọc Cương</string>
+    <string name="time_count">Thời Gian</string>
+    <string name="step_count">Số Lượt</string>
+    <string name="change_picture">Thay Đổi Ảnh</string>
+    <string name="restart">Restart</string>
+    <string name="look_up_original_picture">Xem Ảnh Gốc</string>
+    <string name="win_prompt_format">Bạn đã thắng! Với %1$s, bạn đã thực hiện các bước %2$s.</string>
+    <string name="confirm_restart_msg">Bạn có chắc chắn muốn bắt đầu lại không?</string>
+    <string name="confirm">Xác định</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_picture_to_start">Nhấn vào đây để chọn một hình ảnh để bắt đầu trò chơi</string>
+    <string name="choose_from_gallery">Chọn ảnh từ thư viện</string>
+    <string name="bottom_button_trans_name">bottom button trans</string>
+    <string name="crop">Cắt ảnh</string>
+    <string name="not_started">Bạn chưa bắt đầu</string>
+    <string name="default_time">00:00</string>
+    <string name="default_step">0</string>
+
+</resources>
