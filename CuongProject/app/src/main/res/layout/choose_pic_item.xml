@@ -3,14 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:foreground="?attr/selectableItemBackground"
-
-    >
+    android:foreground="?attr/selectableItemBackground">
 
     <ImageView
         android:id="@+id/iv_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@mipmap/ic_launcher"
+        android:src="@mipmap/icon_home"
         tools:ignore="ContentDescription" />
 </com.kaity.dev.cuongproject.view.SquareFrameLayout>

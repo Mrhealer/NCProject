@@ -41,4 +41,24 @@ public class ViewHolder extends RecyclerView.ViewHolder {
         return this;
     }
 
+    public ViewHolder setViewChecked(int viewId, boolean checked) {
+        ReflectHelper.invokeMethodIfExists("setChecked", getView(viewId), new Class[]{boolean.class}, new Object[]{checked});
+        return this;
+    }
+
+    public ViewHolder setViewOnClickListener(int viewId, View.OnClickListener listener) {
+        ReflectHelper.invokeMethodIfExists("setOnClickListener", getView(viewId), new Class[]{View.OnClickListener.class}, new Object[]{listener});
+        return this;
+    }
+
+    public ViewHolder setViewVisibility(int viewId, int visibility) {
+        ReflectHelper.invokeMethodIfExists("setVisibility", getView(viewId), new Class[]{int.class}, new Object[]{visibility});
+        return this;
+    }
+
+    public ViewHolder setViewTextColor(int viewId, int color) {
+        ReflectHelper.invokeMethodIfExists("setTextColor", getView(viewId), new Class[]{int.class}, new Object[]{color});
+        return this;
+    }
+
 }
